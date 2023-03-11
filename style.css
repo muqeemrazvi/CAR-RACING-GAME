@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Roboto&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color:aquamarine
+}
+
+/* .nav ul{
+    float: left;
+} */
+
+nav{
+    
+    list-style: none;
+    background-color: rgb(116, 234, 169);
+    color: rgb(0, 0, 0);
+    font-family:'Baloo Bhaina 2' ;
+    margin: -1px;
+    margin-top: -21px;
+    overflow: hidden; 
+       
+
+}
+
+nav ul{
+float: left;
+}
+
+nav li ul{
+    padding-left: 10px;
+    margin-top: 20px;
+
+}
+
+#leftnav{
+margin-left: 220px;
+background-color: rgb(79, 233, 140);
+border-radius: 10px;
+}
+
+#game{
+    height: 500px;
+    width: 390px;
+    border: 1px solid black;
+    margin: 1rem auto;
+    background: url(bg.jpg);
+    overflow: hidden;
+    background-size: contain;
+    margin-bottom: 0px;
+}
+
+#bluecar{
+    height: 100px;
+    width: 130px;
+    /* background-color: black; */
+    left: 0;
+    top: 0;
+    position: relative;
+    text-align: center;
+    animation:move 1s linear infinite;
+}
+
+@keyframes move{
+    0%{
+        top: 0px;
+    }
+    100%{
+        top: 501px;
+    }
+}
+
+#bluecar img{
+    height: 100px;
+}
+
+#racecar{
+    height: 100px;
+    width: 130px;
+    /* background-color: brown; */
+    position: relative;
+    left: 130px;
+    top: 250px;
+    text-align: center;
+}
+#racecar img{
+    height: 100px;
+}
+
+#result{
+    height: 200px;
+    width: 400px;
+    background-color: cornflowerblue;
+    margin:  1rem auto;
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    display:none ;
+}
+#score{
+    font-size: 2.2rem;
+    color: brown;
+}
+#btn{
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: cyan;
+    font-size: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+footer{
+   
+    font-family: 'roboto_condensedregular';
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 242, 255);
+    color: rgb(10, 28, 230);
+    text-align: center;
+}
+.user{
+    
+    font-family: 'Baloo Bhaina 2';
+    color: rgb(243, 3, 3);
+    padding-top: 4px;
+    
+    
+}
+#cbtn{
+    text-align: center;
+    position: relative;
+
+    
+    
+
+}
+#lbtn span{
+    font-size: 90px;
+    padding: 30px;
+   
+
+}
+
+#rbtn span{
+    font-size: 90px;
+    padding: 30px;
+    
+
+}
+#rbtn{
+    margin-left: 90px;
+    }
